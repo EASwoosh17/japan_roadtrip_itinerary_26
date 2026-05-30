@@ -16,3 +16,7 @@ After upload, wait 1-3 minutes and open:
 https://easwoosh17.github.io/japan_roadtrip_itinerary_26/
 
 If Android keeps an old icon/content, remove the installed app and clear site data for the URL.
+
+
+## Cache refresh note
+This package uses service worker cache name v3 and network-first loading for `index.html`, so future GitHub Pages updates should become visible faster while still supporting offline fallback.

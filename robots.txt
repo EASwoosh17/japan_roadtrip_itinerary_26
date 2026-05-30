@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /
+
+# This tells well-behaved search engines not to crawl the public GitHub Pages site.
+# It is not access control. Anyone with the URL can still open the site.
